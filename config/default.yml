@@ -2,10 +2,4 @@ recipes:
     global:
         - applications::create_var_chef_cache
     mac_os_x:
-        - applications::google-chrome
-        - applications::firefox
         - applications::java
-attributes:
-    osxdefaults:
-        loginmessage: Property of Kunstmaan NV - 016 300 780 - hello@kunstmaan.be
-
