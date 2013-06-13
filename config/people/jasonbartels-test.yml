@@ -2,6 +2,7 @@ groups:
     - testing
 recipes:
     mac_os_x:
+        - applications::java
         - applications::1password
         - applications::adium
         - applications::evernote
