@@ -1,31 +1,31 @@
-groups:
-    - testing
+#groups:
+#    - testing
 recipes:
     mac_os_x:
         - applications::java
         - applications::1password
         - applications::adium
-        - applications::evernote
-        - applications::filezilla
+#        - applications::evernote
+#        - applications::filezilla
         - applications::flash
-        - applications::flux
-        - applications::gcc42
-        - applications::github_for_mac
-        - applications::istatmenus4
-        - applications::spotify
+#        - applications::flux
+#        - applications::gcc42
+#        - applications::github_for_mac
+#        - applications::istatmenus4
+#        - applications::spotify
         - applications::vmware_fusion
-        - osxdefaults::disable_disk_image_verification
-        - osxdefaults::disable_front_row
-        - osxdefaults::disable_gatekeeper
-        - osxdefaults::set_computer_name
-        - osxdefaults::finder_allow_text_selection_in_quick_look
-        - osxdefaults::finder_display_full_path
-        - osxdefaults::finder_use_column_view_in_all_finder_windows_by_default
-        - osxdefaults::finder_new_finder_windows_shows_homefolder
-        - osxdefaults::finder_automatically_open_a_new_finder_window_when_a_volume_is_mounted
-        - osxdefaults::finder_disable_the_warning_before_emptying_the_trash
-        - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
-        - osxdefaults::finder_search_the_current_folder_by_default
+#        - osxdefaults::disable_disk_image_verification
+#        - osxdefaults::disable_front_row
+#        - osxdefaults::disable_gatekeeper
+#        - osxdefaults::set_computer_name
+#        - osxdefaults::finder_allow_text_selection_in_quick_look
+#        - osxdefaults::finder_display_full_path
+#        - osxdefaults::finder_use_column_view_in_all_finder_windows_by_default
+#        - osxdefaults::finder_new_finder_windows_shows_homefolder
+#        - osxdefaults::finder_automatically_open_a_new_finder_window_when_a_volume_is_mounted
+#        - osxdefaults::finder_disable_the_warning_before_emptying_the_trash
+#        - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
+#        - osxdefaults::finder_search_the_current_folder_by_default
         - dotfiles::projects
 attributes:
     git:
